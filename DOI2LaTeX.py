@@ -1,7 +1,7 @@
 import os
 import requests
 
-# DOI2LaTeX.py - A simple python script turning DOI list to LaTeX format for references using CrossRef API
+# DOI2LaTeX - A simple python script turning DOI list to LaTeX format for references using CrossRef API
 #
 # __author__     = "Yunhan Gao"
 # __maintainer__ = "Yunhan Gao"
@@ -27,8 +27,8 @@ def getMetaData(doi):
     return metaData
 
 # Path for DOI list and results
-DOIListPath = '/DOI-List.txt'
-ResultPath = '/Result.txt'
+DOIListPath = 'DOI-List.txt'
+ResultPath = 'Result.txt'
 
 # Read the entire DOI List as a list of string
 with open(DOIListPath, 'rt') as f:

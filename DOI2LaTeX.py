@@ -1,7 +1,7 @@
 import os
 import requests
 
-# DOI2LaTeX - A simple python script turning DOI list to LaTeX format for references using CrossRef API
+# DOI2LaTeX - A simple python script turning DOI list to LaTeX format references using CrossRef API
 #
 # __author__     = "Yunhan Gao"
 # __maintainer__ = "Yunhan Gao"

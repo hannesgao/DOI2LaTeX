@@ -27,8 +27,8 @@ def getMetaData(doi):
     return metaData
 
 # Path for DOI list and results
-DOIListPath = 'E:\Projects\Python\DOI-List.txt'
-ResultPath = 'E:\Projects\Python\Result.txt'
+DOIListPath = '/DOI-List.txt'
+ResultPath = '/Result.txt'
 
 # Read the entire DOI List as a list of string
 with open(DOIListPath, 'rt') as f:
